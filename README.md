@@ -1,3 +1,5 @@
 # 100-Days-Code 
 
-learning
+``
+
+Day1: Started This github.[15/02/2024]
