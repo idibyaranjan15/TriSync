@@ -11,6 +11,11 @@ let randomColor=()=>{
 }
 let intervalId;
 const startChange=()=>{
+    if(!intervalId){
+        intervalId=setInterval(()=>{
+            document.body.style.backgroundColor=randomColor()
+        },100)
+    }
    intervalId=setInterval(()=>{
         document.body.style.backgroundColor=randomColor()
     },100)
