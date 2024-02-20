@@ -1,0 +1,48 @@
+.classname{
+
+    position: fixed;
+    position: absolute;
+
+    /* pos:r */
+
+    display: block;
+    /* d:f */
+
+
+    display: inline-block;
+
+    /* d:ib */
+    visibility: hidden;
+    /* v:n */
+     
+    overflow: scroll;
+    /* o:s  */
+
+    cursor: help;
+    /* cur:h */
+
+
+    margin: 9px;
+    margin: auto;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    /* m: */
+
+    padding: 9px;
+    /* p */
+
+    padding-top: 9;
+    background: #000;
+    /* bg */
+   background-color: #fff; 
+   /* bgc */
+
+   color: #630909;
+   /* c */
+
+   border: 1px solid #000;;
+   /* bd: */
+
+
+
+}
