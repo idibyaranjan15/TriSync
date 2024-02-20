@@ -16,7 +16,8 @@ const startChange=()=>{
     },100)
 }
 const stopChange=()=>{
-    clearInterval(intervalId)
+    clearInterval(intervalId);
+    intervalId=null;
 }
 
 
