@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="black">
+<h4 id="name-block">Hey There,My name is 
+    <span id="username">DIBYA RANJAN SAHOO</span>
+</h4><p class="block-remove">
+    <pre><code>
+        Console.log('Hey There')
+    </code>
+        </pre>
+</p>
+
+
+
+
+    </div>
+    <div id="my-container"> </div><button id="clickButton">Click ME</button>
+    <script>
+const container=document.querySelector('#my-container');
+const btn=document.querySelector('#clickButton');
+btn.addEventListener('click',()=>{
+    const h1=document.createElement("h1");
+// const createy=document.createTextNode("hello worrld");
+// h1.appendChild(createy)
+h1.innerHTML=`<h1> dibya </h1>`
+container.appendChild(h1);
+})
+
+
+
+
+    </script>
+</body>
+
+</html>
