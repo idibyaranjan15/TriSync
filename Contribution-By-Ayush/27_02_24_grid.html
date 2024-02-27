@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .cont-grid{
+            display: grid;
+            grid-template-columns: repeat(3, auto) ;
+            grid-template-rows: 100px 100px 100px ;
+            border: 2px solid black;
+            /* gap: 10px 200px; */
+            row-gap: 10px;
+            column-gap: 20px;
+
+        }
+
+        .grid-item{
+            
+            /* width: 100px; */
+            border: 2px solid red;
+           
+        }
+.one{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.two{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, numquam?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, perspiciatis.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, modi.</p> -->
+
+    <div class="cont-grid">
+        <div class="grid-item one" ></div>
+        <div class="grid-item two"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+        <div class="grid-item"></div>
+    </div>
+</body>
+</html>
