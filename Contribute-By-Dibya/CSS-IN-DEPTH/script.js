@@ -1,0 +1,5 @@
+const div2=document.querySelector('.div2')
+const pT=document.createElement('p')
+let pT2=document.createTextNode('Dibya ranjan sahoo')
+pT.appendChild(pT2)
+div2.appendChild(pT)
