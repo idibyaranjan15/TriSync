@@ -1,10 +1,4 @@
-import React from "react";
-import Video from "./Video"; // Correctly import the Video component
-import PlayButton from "./PlayButton";
-
-function App() {
- 
-  let videos = [
+let videos = [
     {
       id: 1,
       title: "JavaScript Basics",
@@ -55,41 +49,3 @@ function App() {
       verified: true, // Use boolean value instead of string
     },
   ];
-
-  return (
-    <>
-      <div>
-        {videos.map((video) => (
-          <div key={video.id}>
-          <Video
-            key={video.id}
-            views={video.views}
-            title={video.title}
-            time={video.time}
-            verified={video.verified}
-          />
-          <PlayButton   onPlay={()=>console.log(video.title," played")} onPause={()=>console.log(video.title,"")}> {video.title} </PlayButton>
-        </div>
-        ))}
-      </div>
-     
-      {/* <PlayButton  name="hello" onClick={()=>console.log("hello Dibya")} />
-      <PlayButton name="hollaa" onClick={()=>console.log("Hollaa Dibya")} /> */}
-
-    </>
-  );
-}
-
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
