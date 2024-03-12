@@ -1,16 +1,19 @@
 import "./App.css";
+import React,{useState} from 'react';
+function PlayButton({onPlay,onPause,children}) {
+ 
+ const [playing,setPalying]=useState(false);
+ 
 
-function PlayButton({message,name,onPlay,onPause,children}) {
-    let playing=false;
 
   const handleClick = () => {
     playing ? onPause():onPlay();
-    playing=!playing;
+    setPalying(!playing)
   };
 
   return (
     <>
-      <button onClick={handleClick}>{children}</button>
+      <button onClick={handleClick}>{children}:{playing?'playing':'paused'}</button>
     </>
   );
 }

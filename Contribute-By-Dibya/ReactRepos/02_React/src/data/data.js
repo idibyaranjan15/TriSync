@@ -19,5 +19,6 @@ export let videos = [
       views: "15k",
       time: "2 years ago",
       verified: true, // Use boolean value instead of string
-    }
+    },
+   
   ];
