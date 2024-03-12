@@ -1,6 +1,7 @@
 import React from "react";
-import Card from "./components/Card";
-import Counter from "./components/Counter";
+// import Card from "./components/Card";
+// import Counter from "./components/Counter";
+import BgChanger from "./components/BgChanger";
 
 export const App = () => {
  let data = [
@@ -26,7 +27,9 @@ export const App = () => {
       {/* {data.map((item, index) => (
         <Card key={item.userName} userName={item.userName} desc={item.desc} btn={item.btn} />
       ))} */}
-      <Counter />
+      {/* <Counter /> */}
+
+      <BgChanger />
     </>
  );
 };
